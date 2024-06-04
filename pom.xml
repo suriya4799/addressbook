@@ -427,7 +427,7 @@ spring-aop</artifactId>
 			 <plugin>
 		        <groupId>org.codehaus.mojo</groupId>
 		        <artifactId>cobertura-maven-plugin</artifactId>
-				<version>${cobertura.version}</version>
+				<version>2.7</version>
 		        <configuration>
 		        	<check/>
 		        </configuration>
@@ -449,7 +449,7 @@ spring-aop</artifactId>
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>cobertura-maven-plugin</artifactId>
-				<version>${cobertura.version}</version>
+				<version>2.7</version>
 				<configuration>
 					<formats>
 						<format>html</format>
