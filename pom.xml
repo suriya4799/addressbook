@@ -66,7 +66,7 @@
 
 		<mysql.version>5.1.22</mysql.version>
 
-		<cobertura.version>2.8</cobertura.version>
+		<cobertura.version>2.7</cobertura.version>
 
 	</properties>
 
@@ -153,9 +153,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>
-			<artifactId>
-
-spring-aop</artifactId>
+			<artifactId>spring-aop</artifactId>
 			<version>${spring-framework.version}</version>
 		</dependency>
 		<dependency>
@@ -325,9 +323,7 @@ spring-aop</artifactId>
 			<version>${dandelion.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>com.github.dandelion
-
-</groupId>
+			<groupId>com.github.dandelion</groupId>
 			<artifactId>datatables-export-itext</artifactId>
 			<version>${dandelion.version}</version>
 		</dependency>
@@ -427,7 +423,7 @@ spring-aop</artifactId>
 			 <plugin>
 		        <groupId>org.codehaus.mojo</groupId>
 		        <artifactId>cobertura-maven-plugin</artifactId>
-				<version>2.8</version>
+				<version>${cobertura.version}</version>
 		        <configuration>
 		        	<check/>
 		        </configuration>
@@ -449,7 +445,7 @@ spring-aop</artifactId>
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>
 				<artifactId>cobertura-maven-plugin</artifactId>
-				<version>2.8</version>
+				<version>${cobertura.version}</version>
 				<configuration>
 					<formats>
 						<format>html</format>
