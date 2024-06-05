@@ -320,21 +320,19 @@
                                 <artifactId>addressbook</artifactId>
                                 <version>${project.version}</version>
                             </dependency>
-                        </dependencies>
-                        <dependencies>
                             <!-- Spring Data JPA -->
                             <dependency>
                                 <groupId>org.springframework.data</groupId>
                                 <artifactId>spring-data-jpa</artifactId>
                                 <version>2.5.4</version>
                             </dependency>
-                            <!-- javax.persistence API -->
                             <dependency>
                                 <groupId>javax.persistence</groupId>
                                 <artifactId>javax.persistence-api</artifactId>
                                 <version>2.2</version>
                             </dependency>
                         </dependencies>
+                        
                     </plugin>
                 </plugins>
             </build>
